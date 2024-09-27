@@ -6,14 +6,13 @@ nav{
 }
 body{
 
-.open-sans-<uniquifier> 
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
+
+    font-family: "Open Sans", sans-serif;
+    
+    font-family: "Open Sans ", sans-serif;
+  
+  }
+
 .nav-title{
     color: #181818;
     font-size: 45px;
@@ -40,22 +39,145 @@ nav a{
 .btn-primary{
 border-radius: 5px;
 background-color: #FD6E0A;
-border: 0px;
+border: 0;
+color: white;
 font-size: 20px;
 font-weight: 700px;
 padding: 10px 20px;
 }
 .header{
     background-color: #FFF8F3;
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+   
 }
 
 .banner{
-    padding: 30px 30px  30px  150px;
+    padding: 30px 30px  0px  150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .profile-pic{
     width: 500px;
     
 
+}
+.banner-gretting{
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 800px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-contant{
+    max-width: 500px;
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-info--container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do-description{
+    padding: 30px 150px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+skill{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 6px 50px 0px, rgba(0, 0, 0, 0.6);
+}
+.skill-description{
+    color: #757575;
+}
+main section{
+    margin-top: 130px;
+}
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-institue,.resume-item-description{
+    color: #757575;
+}
+
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.resume-item-institue{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+    gap: 100px;
+
+}
+.footer-column{
+    width: 50%;
+}
+.contact input[type="text"], .contact input[type="Email"],
+textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+}
+
+
+.social-links{
+    margin: 25px;
 }
